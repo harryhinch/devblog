@@ -1,0 +1,24 @@
+{
+  "name": "devblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@zachleat/heading-anchors": "^1.0.1",
+    "cross-env": "^7.0.3",
+    "luxon": "^3.5.0",
+    "zod": "^3.24.1",
+    "zod-validation-error": "^3.4.0"
+  }
+}
