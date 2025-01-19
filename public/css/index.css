@@ -120,6 +120,7 @@ code {
 	padding: 0.25rem 0.6rem;
 	height: 100%;
 	overflow-y: auto;
+	max-height: 91vh;
 	scrollbar-color: #8886 transparent;
 	scrollbar-width: thin;
   }
@@ -133,6 +134,7 @@ code {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+	display: none;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
