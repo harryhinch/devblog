@@ -143,11 +143,11 @@ div.imgcenter{
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
-img{
+img.auto{
   max-height: 50vh;
   display: inline-block;
 }
-img[width][height] {
+img.auto[width][height] {
   width: auto;
   height: auto;
   max-height: 50vh;
